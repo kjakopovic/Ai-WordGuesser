@@ -1,0 +1,65 @@
+Brain Vision Data Exchange Marker File, Version 1.0
+
+[Common Infos]
+Codepage=UTF-8
+DataFile=da.eeg
+
+[Marker Infos]
+; Each entry: Mk<Marker number>=<Type>,<Description>,<Position in data points>,
+; <Size in data points>, <Channel number (0 = marker is related to all channels)>
+; Fields are delimited by commas, some fields might be omitted (empty).
+; Commas in type or description text are coded as "\1".
+Mk1=New Segment,,1,1,0,20250124144946262531
+Mk2=Stimulus,S 23,11271,0,0
+Mk3=Stimulus,S  3,11272,0,0
+Mk4=Stimulus,S  3,11795,0,0
+Mk5=Stimulus,S 21,12308,0,0
+Mk6=Stimulus,S 13,12820,0,0
+Mk7=Stimulus,S 10,13331,0,0
+Mk8=Stimulus,S 15,13840,0,0
+Mk9=Stimulus,S 19,14350,0,0
+Mk10=Stimulus,S  6,14860,0,0
+Mk11=Stimulus,S  9,15371,0,0
+Mk12=Stimulus,S  7,15881,0,0
+Mk13=Stimulus,S 18,16391,0,0
+Mk14=Stimulus,S  1,16901,0,0
+Mk15=Stimulus,S 18,16902,0,0
+Mk16=Stimulus,S  4,17411,0,0
+Mk17=Stimulus,S 20,17926,0,0
+Mk18=Stimulus,S 22,18439,0,0
+Mk19=Stimulus,S 14,18950,0,0
+Mk20=Stimulus,S  8,19460,0,0
+Mk21=Stimulus,S  2,19971,0,0
+Mk22=Stimulus,S  8,19972,0,0
+Mk23=Stimulus,S 17,20487,0,0
+Mk24=Stimulus,S 12,20997,0,0
+Mk25=Stimulus,S 16,21508,0,0
+Mk26=Stimulus,S  5,22018,0,0
+Mk27=Stimulus,S 11,22529,0,0
+Mk28=Stimulus,S 23,23539,0,0
+Mk29=Stimulus,S 15,24050,0,0
+Mk30=Stimulus,S 13,24561,0,0
+Mk31=Stimulus,S 15,24562,0,0
+Mk32=Stimulus,S  4,25071,0,0
+Mk33=Stimulus,S 13,25072,0,0
+Mk34=Stimulus,S 20,25581,0,0
+Mk35=Stimulus,S  4,25582,0,0
+Mk36=Stimulus,S 10,26094,0,0
+Mk37=Stimulus,S 22,26608,0,0
+Mk38=Stimulus,S  3,27121,0,0
+Mk39=Stimulus,S 16,27631,0,0
+Mk40=Stimulus,S  3,27632,0,0
+Mk41=Stimulus,S 17,28145,0,0
+Mk42=Stimulus,S 12,28655,0,0
+Mk43=Stimulus,S 21,29165,0,0
+Mk44=Stimulus,S  5,29677,0,0
+Mk45=Stimulus,S 19,30191,0,0
+Mk46=Stimulus,S  7,30701,0,0
+Mk47=Stimulus,S  8,31215,0,0
+Mk48=Stimulus,S  1,31724,0,0
+Mk49=Stimulus,S  6,32234,0,0
+Mk50=Stimulus,S  2,32746,0,0
+Mk51=Stimulus,S 14,33260,0,0
+Mk52=Stimulus,S 18,33769,0,0
+Mk53=Stimulus,S  9,34281,0,0
+Mk54=Stimulus,S 11,34791,0,0

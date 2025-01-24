@@ -1,0 +1,129 @@
+Brain Vision V-Amp Data Header File Version 1.0
+; Data created by the Vision Recorder
+
+[Common Infos]
+Codepage=UTF-8
+DataFile=dan.eeg
+MarkerFile=dan.amrk
+DataFormat=BINARY
+; Data orientation: MULTIPLEXED=ch1,pt1, ch2,pt1 ...
+DataOrientation=MULTIPLEXED
+NumberOfChannels=15
+; Sampling interval in microseconds
+SamplingInterval=2000
+
+[Binary Infos]
+BinaryFormat=IEEE_FLOAT_32
+
+[Channel Infos]
+; Each entry: Ch<Channel number>=<Name>,<Reference channel name>,
+; <Resolution in "Unit">,<Unit>, Future extensions..
+; Fields are delimited by commas, some fields might be omitted (empty).
+; Commas in channel names are coded as "\1".
+Ch1=1,,0.0488281,µV
+Ch2=2,,0.0488281,µV
+Ch3=3,,0.0488281,µV
+Ch4=4,,0.0488281,µV
+Ch5=5,,0.0488281,µV
+Ch6=6,,0.0488281,µV
+Ch7=7,,0.0488281,µV
+Ch8=8,,0.0488281,µV
+Ch9=9,,0.0488281,µV
+Ch10=10,,0.0488281,µV
+Ch11=11,,0.0488281,µV
+Ch12=12,,0.0488281,µV
+Ch13=13,,0.0488281,µV
+Ch14=14,,0.0488281,µV
+Ch15=15,,0.0488281,µV
+
+[Signature]
+SignatureLength=4096
+Key1=0b36b4d01a9458ec198ac26f16f026d77c9d45fb5971a537335a884f72e32f5d
+Key2=b08d5956f7c01abbed3119adf0feb1bb6c5197a7babbfe9100fc6aa2b25db358
+Key3=ce8fb94235a6ea738b68d51d10c26ed3710c241da93ad82bcc76d2a483b7a34c
+Key4=53aef874050000c03602b64723ee52a37b111f7627aa943050ec27d002b8aca9
+Key5=f191e5bfd0e6351597933d9db13a99a14af8385d3c1bc01de74f05e200da31ec
+Key6=1c3d11d89699f4c53c0cfe9ca6295406e0625c85e6ba3c0c605880a292cc785e
+Key7=618455a6edb277a50d493596b539b94b60a0fccaaec139eba51c1f3ea9b72ea7
+Key8=d8988e0be1f6861adf86053ce9af55e032980af6a02325344bd2a87749a2d52b
+Key9=72f33fdff4c2a96c020b91e790422c7b1917005ce1209f2e68ade985a1028c5b
+Key10=2b529dce78b9e5dc6e68e626078835f1c752e74522a90d0d4f3623dc95213f2d
+Key11=863bceab2a285f03ba8618a30df9125cf6639956b22272823b4a4a70d5f9e50f
+Key12=bfa460769bee7e63351e38b0fa59d93b9b7e46080c85eacbd2cefb7f89d8ad9b
+Key13=c278e62d59ab3a68f91e446ef22be4be92260f210aa5eb71f36dde6d8e549c92
+Key14=ee1c937266faffe361be72c8fb700e7948fb34acbdfab842d7ab7a61f1e2cd17
+Key15=c31676623a42db3d7c8decc51f321512e5eb22f0a3859dd876da15401ffa855c
+Key16=857183d678453521bf327afe71f7e2076ee85016261c11a8516ddb3eddf0d9b7
+Signature1=2d3be2840f26a9a2dc0b9a0c07a84c6b84fa380f01d0956a11285fe3ee13b1bf
+Signature2=42266e34add76e364f5301f8b1b1906c8a84c0e0044acf73f772259d791e7ef0
+Signature3=795ebd078c2147511470fcc5025908f3b28d6b87c01b8c23951181483178fde8
+Signature4=121490f4a5f27a17ffed74af10f65f2b65881173bd372105302afb92df5d98aa
+Signature5=b545ca038bab8fc65f8377acd8e6893411abd3e321d9847f4db4a00cbc2f5da0
+Signature6=7c1f686bea3372e207b79a0206a7c002efe9e1d8cf074351c07afcefbfde8d34
+Signature7=21a07356042baffdb063f363293950da3e0d0ddf1629591648b6869fe57219c4
+Signature8=00184d929894b84a39f2b30fb38aa079f152981736b581239f177fe641dbb6ad
+Signature9=7e35b1565aeef83e2123146c1f4b0ba7c8282712af5c1cefd5522f3154497cb2
+Signature10=fe58a0cd7ab8e73c38e2b5b0ea74663b0e6e783eb1ff3ed27d3a75c9d1eb88e1
+Signature11=6734eefe58fe56547ee90b8f03a2558692f0d902609c9dce6264dd4cfbb913d5
+Signature12=3b0423b41624b59fe9385b15b54d87a385c2ab8ba9b4be72a08d9e5dc3b338a8
+Signature13=be71fb13a0faa8eb7fa8788adb917d7ed9ddafe13df4dcae20ddc44812a19506
+Signature14=27125642e8ab16f3e66a54d84745d4a97b796c00057e98eb8249ecd950ef1ced
+Signature15=c57d14de4d6446fe5a1db187544b08a6fbc7f3413ce5532e38fe3efdde5c3af4
+Signature16=c535fd0aa79ef09766f28f7d080a3e54c3ac30e99a04318f514ef66edb4e5732
+
+[Comment]
+
+BrainVision Recorder Professional   -   V. 1.26.0101
+
+
+A m p l i f i e r  S e t u p
+============================
+Number of channels: 15
+Sampling Rate [Hz]: 500
+Sampling Interval [µS]: 2000
+
+Channels
+--------
+#     Name      Phys. Chn.    Resolution / Unit   Low Cutoff [s]   High Cutoff [Hz]   Notch [Hz]    Gradient         Offset
+1     1           1          0.0488281 µV             DC                0              Off
+2     2           2          0.0488281 µV             DC                0              Off
+3     3           3          0.0488281 µV             DC                0              Off
+4     4           4          0.0488281 µV             DC                0              Off
+5     5           5          0.0488281 µV             DC                0              Off
+6     6           6          0.0488281 µV             DC                0              Off
+7     7           7          0.0488281 µV             DC                0              Off
+8     8           8          0.0488281 µV             DC                0              Off
+9     9           9          0.0488281 µV             DC                0              Off
+10    10          10         0.0488281 µV             DC                0              Off
+11    11          11         0.0488281 µV             DC                0              Off
+12    12          12         0.0488281 µV             DC                0              Off
+13    13          13         0.0488281 µV             DC                0              Off
+14    14          14         0.0488281 µV             DC                0              Off
+15    15          15         0.0488281 µV             DC                0              Off
+
+Invert AUX Channel Polarity = No
+
+S o f t w a r e  F i l t e r s
+==============================
+Disabled
+
+
+Data / Ref / Gnd Electrodes Selected Impedance Measurement Range: 0 - 100 kOhm
+Impedance [kOhm] at 13:22:36 :
+1:            0
+2:            0
+3:            0
+4:            0
+5:            0
+6:            0
+7:            0
+8:            0
+9:            0
+10:           0
+11:           0
+12:           0
+13:           0
+14:           0
+15:           0
+Ref:          0
+Gnd:          0

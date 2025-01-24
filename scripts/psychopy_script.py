@@ -57,7 +57,7 @@ def send_digital_output(input_char: str = 'A'):
         print("Digital output written to myDAQ.")
 
 # Constants
-alphabet = list("ABCDEFGHIJKLMNOPQRSTUVWXYZ")
+alphabet = list("ABCDEFGHIJKLMNOPRSTUVZ")
 current_char_options = []
 
 # Initialize the window
@@ -94,12 +94,12 @@ for char in wanted_word.strip():
     # Refresh the window
     win.flip()
     
-    core.wait(2)
+    core.wait(1)
 
     # Sending start marker
     send_digital_output('0')
 
-    core.wait(2)
+    core.wait(1)
 
     # Main loop
     while True:

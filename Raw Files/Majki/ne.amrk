@@ -1,0 +1,65 @@
+Brain Vision Data Exchange Marker File, Version 1.0
+
+[Common Infos]
+Codepage=UTF-8
+DataFile=ne.eeg
+
+[Marker Infos]
+; Each entry: Mk<Marker number>=<Type>,<Description>,<Position in data points>,
+; <Size in data points>, <Channel number (0 = marker is related to all channels)>
+; Fields are delimited by commas, some fields might be omitted (empty).
+; Commas in type or description text are coded as "\1".
+Mk1=New Segment,,1,1,0,20250124142038309757
+Mk2=Stimulus,S 23,16900,0,0
+Mk3=Stimulus,S  4,17421,0,0
+Mk4=Stimulus,S  3,17930,0,0
+Mk5=Stimulus,S 12,18440,0,0
+Mk6=Stimulus,S  1,18951,0,0
+Mk7=Stimulus,S 12,18952,0,0
+Mk8=Stimulus,S  9,19461,0,0
+Mk9=Stimulus,S  1,19462,0,0
+Mk10=Stimulus,S 18,19971,0,0
+Mk11=Stimulus,S  9,19972,0,0
+Mk12=Stimulus,S 20,20484,0,0
+Mk13=Stimulus,S  8,20995,0,0
+Mk14=Stimulus,S 21,21505,0,0
+Mk15=Stimulus,S 17,22016,0,0
+Mk16=Stimulus,S  6,22527,0,0
+Mk17=Stimulus,S  2,23040,0,0
+Mk18=Stimulus,S 16,23551,0,0
+Mk19=Stimulus,S 11,24061,0,0
+Mk20=Stimulus,S  5,24571,0,0
+Mk21=Stimulus,S 13,25081,0,0
+Mk22=Stimulus,S 14,25591,0,0
+Mk23=Stimulus,S  7,26101,0,0
+Mk24=Stimulus,S 14,26102,0,0
+Mk25=Stimulus,S 19,26615,0,0
+Mk26=Stimulus,S 22,27126,0,0
+Mk27=Stimulus,S 15,27637,0,0
+Mk28=Stimulus,S 10,28150,0,0
+Mk29=Stimulus,S 23,29164,0,0
+Mk30=Stimulus,S 15,29677,0,0
+Mk31=Stimulus,S  1,30187,0,0
+Mk32=Stimulus,S  5,30701,0,0
+Mk33=Stimulus,S 10,31211,0,0
+Mk34=Stimulus,S 11,31721,0,0
+Mk35=Stimulus,S 21,32231,0,0
+Mk36=Stimulus,S  6,32741,0,0
+Mk37=Stimulus,S 12,33251,0,0
+Mk38=Stimulus,S  6,33252,0,0
+Mk39=Stimulus,S 14,33761,0,0
+Mk40=Stimulus,S 12,33762,0,0
+Mk41=Stimulus,S  7,34271,0,0
+Mk42=Stimulus,S 14,34272,0,0
+Mk43=Stimulus,S 16,34785,0,0
+Mk44=Stimulus,S  4,35298,0,0
+Mk45=Stimulus,S  8,35808,0,0
+Mk46=Stimulus,S 19,36318,0,0
+Mk47=Stimulus,S 22,36828,0,0
+Mk48=Stimulus,S 18,37338,0,0
+Mk49=Stimulus,S  9,37850,0,0
+Mk50=Stimulus,S 20,38359,0,0
+Mk51=Stimulus,S  3,38869,0,0
+Mk52=Stimulus,S  2,39378,0,0
+Mk53=Stimulus,S 13,39891,0,0
+Mk54=Stimulus,S 17,40401,0,0

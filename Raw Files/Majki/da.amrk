@@ -1,0 +1,65 @@
+Brain Vision Data Exchange Marker File, Version 1.0
+
+[Common Infos]
+Codepage=UTF-8
+DataFile=da.eeg
+
+[Marker Infos]
+; Each entry: Mk<Marker number>=<Type>,<Description>,<Position in data points>,
+; <Size in data points>, <Channel number (0 = marker is related to all channels)>
+; Fields are delimited by commas, some fields might be omitted (empty).
+; Commas in type or description text are coded as "\1".
+Mk1=New Segment,,1,1,0,20250124141835528108
+Mk2=Stimulus,S 23,6414,0,0
+Mk3=Stimulus,S 13,6931,0,0
+Mk4=Stimulus,S 23,6932,0,0
+Mk5=Stimulus,S  2,7444,0,0
+Mk6=Stimulus,S 17,7954,0,0
+Mk7=Stimulus,S 19,8465,0,0
+Mk8=Stimulus,S 10,8975,0,0
+Mk9=Stimulus,S  6,9485,0,0
+Mk10=Stimulus,S 21,9996,0,0
+Mk11=Stimulus,S  3,10510,0,0
+Mk12=Stimulus,S 22,11020,0,0
+Mk13=Stimulus,S 14,11531,0,0
+Mk14=Stimulus,S  5,12044,0,0
+Mk15=Stimulus,S  9,12554,0,0
+Mk16=Stimulus,S 11,13065,0,0
+Mk17=Stimulus,S  7,13579,0,0
+Mk18=Stimulus,S 12,14090,0,0
+Mk19=Stimulus,S 16,14601,0,0
+Mk20=Stimulus,S 12,14602,0,0
+Mk21=Stimulus,S  8,15117,0,0
+Mk22=Stimulus,S  4,15627,0,0
+Mk23=Stimulus,S  1,16141,0,0
+Mk24=Stimulus,S 20,16651,0,0
+Mk25=Stimulus,S 18,17161,0,0
+Mk26=Stimulus,S 20,17162,0,0
+Mk27=Stimulus,S 15,17671,0,0
+Mk28=Stimulus,S 18,17672,0,0
+Mk29=Stimulus,S 23,18686,0,0
+Mk30=Stimulus,S  8,19196,0,0
+Mk31=Stimulus,S 17,19707,0,0
+Mk32=Stimulus,S 10,20216,0,0
+Mk33=Stimulus,S 20,20727,0,0
+Mk34=Stimulus,S 12,21237,0,0
+Mk35=Stimulus,S 13,21747,0,0
+Mk36=Stimulus,S 21,22258,0,0
+Mk37=Stimulus,S  1,22769,0,0
+Mk38=Stimulus,S 16,23281,0,0
+Mk39=Stimulus,S  1,23282,0,0
+Mk40=Stimulus,S 18,23796,0,0
+Mk41=Stimulus,S  7,24306,0,0
+Mk42=Stimulus,S  9,24820,0,0
+Mk43=Stimulus,S  5,25331,0,0
+Mk44=Stimulus,S  9,25332,0,0
+Mk45=Stimulus,S 19,25841,0,0
+Mk46=Stimulus,S  5,25842,0,0
+Mk47=Stimulus,S 11,26354,0,0
+Mk48=Stimulus,S  4,26864,0,0
+Mk49=Stimulus,S  2,27375,0,0
+Mk50=Stimulus,S 15,27885,0,0
+Mk51=Stimulus,S 22,28396,0,0
+Mk52=Stimulus,S  3,28906,0,0
+Mk53=Stimulus,S 14,29416,0,0
+Mk54=Stimulus,S  6,29926,0,0
