@@ -17,7 +17,7 @@ def get_random_character(alphabet):
 
 def send_digital_output(input_char: str = 'A'):
     if input_char == '0':
-        value = 0 # TODO: pogledat jel ovo zapp 255 ili 0 i hoce li se uopce pokazat, ako ne odabrati neki drugi marker kao start/end
+        value = 0b11111111
     else:
         ascii_value = ord(input_char)
         value = ~ascii_value
@@ -39,7 +39,7 @@ alphabet = list("ABCDEFGHIJKLMNOPQRSTUVWXYZ")
 current_char_options = []
 
 # Initialize the window
-win = visual.Window(size=(1600, 1000), color="black", fullscr=False)
+win = visual.Window(size=(800, 600), color="black", fullscr=False)
 
 # Stimuli for display
 letter_stim = visual.TextStim(win, text="", color="white", height=0.2, pos=(0, 0.2))
@@ -71,11 +71,13 @@ for char in wanted_word.strip():
 
     # Refresh the window
     win.flip()
+    
+    core.wait(2)
 
     # Sending start marker
     send_digital_output('0')
 
-    core.wait(5)
+    core.wait(2)
 
     # Main loop
     while True:
