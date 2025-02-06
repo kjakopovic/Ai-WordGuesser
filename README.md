@@ -74,3 +74,5 @@ It also contains `marker_utils.py` which contains all the mappings between chara
 [![LinkedIn Majki badge](https://img.shields.io/badge/LinkedIn-majki-%230A66C2?logo=linkedin&logoColor=white&labelColor=gray)](https://www.linkedin.com/in/marin-mikulec-26b0a829b/)
 [![LinkedIn MBrodarac badge](https://img.shields.io/badge/LinkedIn-mbrodarac-196CBF)](https://www.linkedin.com/in/matej-brodarac-b866562ba/)
 [![LinkedIn MGolub badge](https://img.shields.io/badge/LinkedIn-mgolub-196CBF)](https://www.linkedin.com/in/matej-golub-70a837235/)
+
+Mentored by v. asist. dr. sc. Ivan Markovinović from RiTeh
