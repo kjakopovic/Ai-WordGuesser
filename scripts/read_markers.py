@@ -1,7 +1,7 @@
 import mne
 
-file_path = '../../../../Vision/Raw Files/VAMP-2-000011.ahdr'
-file_path_amrk = '../../../../Vision/Raw Files/VAMP-2-000011.amrk'
+file_path = '../data/app.ahdr'
+file_path_amrk = '../data/app.amrk'
 
 # AHDR FILE READINGS
 raw_data = mne.io.read_raw_brainvision(file_path, preload=True)

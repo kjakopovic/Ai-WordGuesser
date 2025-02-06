@@ -2,13 +2,15 @@ import nidaqmx
 import time
 from nidaqmx.constants import LineGrouping
 
+from utils.marker_utils import convert_letter_to_marker
+
 # Convert 'A' to 8-bit binary and send to myDAQ digital output
 def send_digital_output(input_char: str = 'A'):
-    if input_char == '0':
-        value = 0
-    else:
-        ascii_value = ord(input_char)
-        value = ~ascii_value
+    value = convert_letter_to_marker(input_char)
+
+    if value == -1:
+        print(f"Invalid input character '{input_char}'.")
+        return
 
     print(f"Binary representation of '{input_char}': {value}")
 
@@ -21,7 +23,6 @@ def send_digital_output(input_char: str = 'A'):
         task.write(value, auto_start=True)
 
         print("Digital output written to myDAQ.")
-
 
 # Execute the functions
 send_digital_output()
