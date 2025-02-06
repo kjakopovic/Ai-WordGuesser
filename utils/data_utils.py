@@ -110,3 +110,28 @@ def iterate_and_process_ahdr_files(directory: str):
         dataset.extend(current_dataset)
 
     return dataset
+
+def process_eeg_data(data):
+    X = []
+    y = []
+    
+    for entry in data:
+        eeg_data = entry[0]  # shape: (n_epochs, n_channels, n_samples)
+        label1 = entry[1]    # First label
+        label2 = entry[2]    # Second label, used as target variable y
+
+        eeg_data = eeg_data.reshape(eeg_data.shape[0], 1, eeg_data.shape[1])
+        label1_array = np.full((eeg_data.shape[0], 1, eeg_data.shape[2]), label1)
+
+        # Concatenate label1 as an extra channel
+        eeg_data_with_label = np.concatenate((eeg_data, label1_array), axis=1)  # New shape: (n_epochs, n_channels + 1, n_samples)
+
+        # Append to lists
+        X.append(eeg_data_with_label)
+        y.append(label2)
+    
+    # Convert lists to NumPy arrays for further processing
+    X = np.array(X)
+    y = np.array(y)
+    
+    return X, y
